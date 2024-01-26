@@ -2,7 +2,7 @@
 Developing a GNN to calssify doublets in the QA tracking algorithm.
 
 # modules/TrackDataloader.py
-Dataloader, generate the graph in eta-phi space.
+Dataloader, generate the graph in eta-phi space from the samples in TrackML dataset (dataset are not included in this repo).
 
 # modules/dynamic_graph_PhaseIII.py
 Main code to build up the model. First transform the graph from Dataloader and generate a k-nn graph in the embedding space. At the end tranform it back to get the edge scores.
